@@ -1,0 +1,10 @@
+2024-04-01 09:00:01 ERROR DatabaseService Failed to connect: connection refused
+2024-04-01 09:00:05 ERROR DatabaseService Failed to connect: connection refused
+2024-04-01 09:00:10 ERROR DatabaseService Failed to connect: connection refused
+2024-04-01 09:00:15 CRITICAL SystemMonitor Database unreachable shutting down dependent services
+2024-04-01 09:00:20 ERROR AuthService Cannot verify token database unavailable
+2024-04-01 09:00:25 ERROR APIGateway Downstream service failure on /api/v1/orders
+2024-04-01 09:00:30 ERROR AuthService Cannot verify token database unavailable
+2024-04-01 09:00:35 WARNING SystemMonitor Attempting automatic database reconnect
+2024-04-01 09:00:40 ERROR DatabaseService Reconnect attempt failed: timeout
+2024-04-01 09:00:45 CRITICAL SystemMonitor All reconnect attempts exhausted manual intervention required

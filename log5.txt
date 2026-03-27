@@ -1,0 +1,10 @@
+2024-06-30 23:55:01 INFO AuthService Nightly session cleanup started
+2024-06-30 23:55:10 INFO DatabaseService Nightly index optimization started
+2024-06-30 23:55:20 WARNING AuthService 142 expired sessions found during cleanup
+2024-06-30 23:55:30 ERROR DatabaseService Index optimization failed: lock timeout
+2024-06-30 23:55:40 INFO AuthService Session cleanup completed: 142 sessions removed
+2024-06-30 23:55:50 CRITICAL DatabaseService Index corruption detected on table orders
+2024-06-30 23:56:00 ERROR SystemMonitor Alerting on-call engineer: database index corruption
+2024-06-30 23:56:10 WARNING SystemMonitor Attempting index recovery procedure
+2024-06-30 23:56:20 ERROR DatabaseService Recovery attempt 1 failed: insufficient permissions
+2024-06-30 23:56:30 CRITICAL DatabaseService Recovery failed manual intervention required immediately

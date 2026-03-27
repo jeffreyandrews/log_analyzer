@@ -1,0 +1,10 @@
+2024-05-22 11:00:01 WARNING APIGateway Rate limit approaching: 80% capacity
+2024-05-22 11:00:10 WARNING APIGateway Rate limit approaching: 87% capacity
+2024-05-22 11:00:20 WARNING APIGateway Rate limit approaching: 93% capacity
+2024-05-22 11:00:30 ERROR APIGateway Rate limit exceeded requests being dropped
+2024-05-22 11:00:35 INFO AuthService User login successful: user_id=7734
+2024-05-22 11:00:40 ERROR APIGateway Rate limit exceeded requests being dropped
+2024-05-22 11:00:45 WARNING DatabaseService Query execution time high: 4200ms
+2024-05-22 11:00:50 ERROR APIGateway Rate limit exceeded requests being dropped
+2024-05-22 11:01:00 WARNING DatabaseService Query execution time high: 5100ms
+2024-05-22 11:01:10 CRITICAL APIGateway Service unavailable rate limit threshold breached

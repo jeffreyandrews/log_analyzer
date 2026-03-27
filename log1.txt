@@ -1,0 +1,10 @@
+2024-03-15 14:23:01 INFO AuthService User login successful: user_id=1042
+2024-03-15 14:23:05 INFO DatabaseService Connection established successfully
+2024-03-15 14:23:10 WARNING APIGateway Rate limit approaching: 85% capacity
+2024-03-15 14:23:15 ERROR AuthService Invalid token from IP 192.168.1.45
+2024-03-15 14:23:20 INFO AuthService User logout: user_id=1042
+2024-03-15 14:23:25 ERROR DatabaseService Query timeout after 30s on table users
+2024-03-15 14:23:30 INFO APIGateway Request completed: GET /api/v1/users 200
+2024-03-15 14:23:35 WARNING AuthService Failed login attempt: user_id=2201
+2024-03-15 14:23:40 INFO DatabaseService Index rebuild completed successfully
+2024-03-15 14:23:45 CRITICAL SystemMonitor CPU usage at 98% possible runaway process
